@@ -1,0 +1,77 @@
+/* Container styling */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.login-container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Input field styling */
+.input-group {
+  margin-bottom: 20px;
+}
+
+/* Full width for material form fields */
+.full-width {
+  width: 100%;
+}
+
+/* Button styling */
+.login-button {
+  width: 100%;               /* Full width button */
+  padding: 14px 20px;         /* Padding for better click area */
+  font-size: 16px;            /* Font size for readability */
+  font-weight: bold;          /* Bold text for emphasis */
+  text-transform: uppercase;  /* Capitalize text */
+  border-radius: 50px;        /* Rounded corners */
+  background-color: #007bff;  /* Blue background for default */
+  color: white;               /* White text color */
+  transition: all 0.3s ease;  /* Smooth transition for hover effects */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: none;               /* Remove default border */
+}
+
+/* Hover effect */
+.login-button:hover {
+  background-color: #febd69;  /* Yellow background on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  transform: scale(1.05);      /* Slight zoom effect */
+}
+
+/* Focus effect */
+.login-button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(254, 189, 105, 0.7); /* Highlight on focus */
+}
+
+/* Active state (button click) */
+.login-button:active {
+  transform: scale(0.98);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);  /* Reduce shadow on click */
+}
+
+/* Disabled state */
+.login-button:disabled {
+  background-color: #dcdcdc;
+  color: #a1a1a1;
+  box-shadow: none;
+  cursor: not-allowed;
+}

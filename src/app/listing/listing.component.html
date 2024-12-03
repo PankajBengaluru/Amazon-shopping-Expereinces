@@ -1,0 +1,15 @@
+<div class="listing-container">
+  <h2>Available Mobiles</h2>
+  <div class="items-container">
+    <div *ngFor="let mobile of mobiles" class="item">
+      <img [src]="mobile.imageUrl"
+      [alt]="mobile.name"
+      class="mobile-image" alt="Mobile Image"
+      />
+      <h3>{{ mobile.name }}</h3>
+      <p>Price: ₹{{ mobile.price }}</p>
+      <button (click)="addToCart(mobile)">Add to Cart</button>
+      <button (click)="viewItem(mobile.id)">View Details</button>
+    </div>
+  </div>
+</div>
